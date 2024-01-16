@@ -1,13 +1,13 @@
-# JumpCoder: Go Beyond Autoregressive Coder via Online Modification
+# JumpCoder
 
 
 <p align="center">
   <img src="./assets/code-demo.gif" width="70%">
 </p>
 
-## 🔍About
+## 🔍 About
 
-This repository contains the implementation of our paper [JumpCoder](). JumpCoder is a model-agnostic framework, designed to enhance code language models (LLMs) through online modification and non-sequential code generation. It does not require any fine-tuning or human intervention.
+This repository contains the implementation of our paper [*JumpCoder: Go Beyond Autoregressive Coder via Online Modification*](). JumpCoder is a model-agnostic framework, designed to enhance code large language models (LLMs) through online modification and non-sequential code generation. It does not require any fine-tuning or human intervention.
 
 **Why JumpCoder?** Traditional code LLMs generate code in a linear, irreversible sequence. This can lead to errors accumulating over time, as they can't jump back and correct the previous missing statements like a human. JumpCoder addresses this issue and improves the quality of the generated code.
 
