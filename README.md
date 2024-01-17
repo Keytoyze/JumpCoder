@@ -1,13 +1,24 @@
 # JumpCoder
 
+<p align="center">
+    📃&nbsp;<a href="https://arxiv.org/abs/2401.07870">Paper</a>
+    | 🔍&nbsp;<a href="#-about">About</a>
+    | 🔨&nbsp;<a href="#-setup">Setup</a>
+    | 🚀&nbsp;<a href="#-quick-start">Quick Start</a>
+    | 📊&nbsp;<a href="#-evaluation">Evaluation</a>
+    | 🔗&nbsp;<a href="#-citation">Citation</a>
+</p>
+
+
 
 <p align="center">
   <img src="./assets/code-demo.gif" width="70%">
 </p>
 
+
 ## 🔍 About
 
-This repository contains the implementation of our paper [*JumpCoder: Go Beyond Autoregressive Coder via Online Modification*](). JumpCoder is a model-agnostic framework, designed to enhance code large language models (LLMs) through online modification and non-sequential code generation. It does not require any fine-tuning or human intervention.
+This repository contains the implementation of our paper [*JumpCoder: Go Beyond Autoregressive Coder via Online Modification*](https://arxiv.org/abs/2401.07870). JumpCoder is a model-agnostic framework, designed to enhance code large language models (LLMs) through online modification and non-sequential code generation. It does not require any fine-tuning or human intervention.
 
 **Why JumpCoder?** Traditional code LLMs generate code in a linear, irreversible sequence. This can lead to errors accumulating over time, as they can't jump back and correct the previous missing statements like a human. JumpCoder addresses this issue and improves the quality of the generated code.
 
@@ -128,7 +139,18 @@ bash scripts/evaluate_cl_humaneval.sh --evaluate
 > [!TIP]
 > When testing WizardCoder, make sure to execute `--build-generation-server` and `--build-infilling-server` in their respective Python environments as per their specific requirements.
 
-## 📝 Citation
+## 🔗 Citation
 
-TODO
+```bibtex
+@misc{chen2024jumpcoder,
+      title={JumpCoder: Go Beyond Autoregressive Coder via Online Modification}, 
+      author={Mouxiang Chen and Hao Tian and Zhongxin Liu and Xiaoxue Ren and Jianling Sun},
+      year={2024},
+      eprint={2401.07870},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+
 
