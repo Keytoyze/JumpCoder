@@ -14,7 +14,7 @@
 <p align="center">
   <img src="./assets/code-demo.gif" width="70%">
 </p>
-
+🔥 News: our paper has been accepted by ACL 2024 as a main conference paper.
 
 ## 🔍 About
 
